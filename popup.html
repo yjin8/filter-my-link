@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html style="height:100px; width: 250px; margin:0;">
+  <head>
+    <title>F(ilter) M(y) L(ink)</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 80%;
+      }
+      button {
+        background-color: blue;
+        color: white;
+        border: none;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+  </style>
+  </head>
+  <body>
+    <img style="width: 80%; height: auto; margin: 0 auto; display: block;" src="icon.png" />
+    Filter My Link (FML) is an extension that replaces choice words and phrases with random strings from a library! 
+  </body>
+</html>
