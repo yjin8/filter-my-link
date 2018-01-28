@@ -21,6 +21,7 @@ To install this extension, open ``chrome://extensions`` or go to Menu and select
 * ``content.js``: contains the processes that analyzes and filters the text in a webpage
 * ``popup.html``: contains the design of the popup that appears when the extension button is clicked
 * ``manifest.json``
+** ``language archive\language`` contains our unfinished work with Google Cloud
 
 ## Next Steps
 There are plenty of immediate improvements that can be made. First of all, FML should allow users to personalize the list of words that they do or don't want to see. FML can also be extended to provide a "kid-safe-browsing" feature. We would also like to find a way for FML to interact and parse through React webpages such as Facebook and Instagram. We hope to find a way to incorporate Google's Natural Language Processing Sentimental Analysis to improve the efficiency of the extension and to provide a better analysis of the content from the web. 
