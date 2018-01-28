@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Filter My Link",
-  "description": "Filters certain words and replaces them with random quotes/words/emojis.",
+  "description": "Filters certain words and replaces them with random quotes, words or emojis.",
   "version": "1.0",
 
   "browser_action": {
