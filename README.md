@@ -15,7 +15,7 @@ However, we were unable to find a way to integrate Google Cloud's Flask Web App 
 This extension isn't exactly what we imagined it to be, but it certainly made us laugh many times while testing it and we hope it will make users' days a little bit brighter.
 
 ## Installation
-To install this extension, open ``chrome://extensions`` or go to Menu and select Extensions under More Tools. Make sure that Developer's mode is checked and then click on Load unpacked extension. Select the repository directory and ensure that Filter My Link is enabled. 
+To install this extension, open ``chrome://extensions`` or go to Menu and select Extensions under More Tools. Make sure that Developer's mode is checked and then click on Load unpacked extension. Select the extension directory and ensure that Filter My Link is enabled. 
 
 ## Files
 * ``content.js``: contains the processes that analyzes and filters the text in a webpage
